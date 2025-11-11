@@ -1,0 +1,22 @@
+.modifier-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.preview {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}

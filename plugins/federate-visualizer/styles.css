@@ -1,0 +1,30 @@
+.viewer-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #111;
+  color: #fff;
+}
+
+.mesh-canvas {
+  flex: 1;
+  background-color: #000;
+  border-bottom: 2px solid #333;
+}
+
+.collab-panel {
+  padding: 1rem;
+  background-color: #222;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.collab-panel textarea {
+  flex: 1;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  resize: none;
+}

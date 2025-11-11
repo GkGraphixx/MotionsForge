@@ -1,0 +1,22 @@
+.sculptor-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.gcode-canvas {
+  flex: 1;
+  background-color: #1e1e1e;
+  border-bottom: 2px solid #333;
+}
+
+.controls {
+  padding: 1rem;
+  background-color: #222;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}

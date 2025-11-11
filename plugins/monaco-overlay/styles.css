@@ -1,0 +1,24 @@
+.monaco-overlay-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #121212;
+  color: #fff;
+}
+
+.editor {
+  flex: 1;
+  border-bottom: 2px solid #333;
+}
+
+.toolbar {
+  padding: 1rem;
+  background-color: #222;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.encoded-line-highlight {
+  background-color: rgba(255, 215, 0, 0.2);
+}

@@ -1,0 +1,25 @@
+plugins:
+  - name: Live G-code Sculptor
+    path: plugins/live-gcode-sculptor/
+    description: Real-time G-code sculpting and simulation
+  - name: Enhanced Code Manipulation
+    path: plugins/enhanced-code-manipulation/
+    description: Monaco-powered editing with encoded logic
+  - name: Federate Visualizer
+    path: plugins/federate-visualizer/
+    description: Real-time mesh viewer with collaboration
+  - name: Print Health Dashboard
+    path: plugins/print-health-dashboard/
+    description: Sensor-driven diagnostics and alerts
+  - name: Wire-Based Code Sculptor
+    path: plugins/wire-code-sculptor/
+    description: Modular G-code abstraction and logic blocks
+  - name: OpenSCAD Modifier Integration
+    path: plugins/openscad-modifiers/
+    description: Parametric shape control with OpenSCAD-style modifiers
+  - name: Fusion360 Modifier Support
+    path: plugins/fusion360-modifiers/
+    description: Extrude, fillet, chamfer, and mirror geometry
+  - name: Monaco Editor Overlay
+    path: plugins/monaco-overlay/
+    description: Inline editing with encoded line highlighting
